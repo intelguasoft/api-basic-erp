@@ -35,45 +35,43 @@ El **ERP** emplea tecnología cliente/servidor. Esto significa que el usuario de
 
 Un sistema **ERP** (_Enterprise Resource Planning_) básico debe permitir gestionar al menos los recursos mas primarios de la empresa, estos se agrupan generalmente en módulos , es muy importante saber decidir cuales son las herramientas básicas necesarias para cada situación:
 
--   Módulos financieros que incluya contabilidad y tesorería.
+1. Módulos financieros que incluya contabilidad y tesorería.
 
--   El modulo de contabilidad debe generar por lo menos informes diarios de ventasFacturas y pagos (Abonos)
+    - El modulo de contabilidad debe generar por lo menos informes diarios de ventasFacturas y pagos (Abonos)
+    - Gestionar las facturas y abonos de clientes y las facturas de proveedores
+    - Gestión de impuestos y cargas sociales
+    - Gestión de domiciliaciones y reintegros bancarios
+    - Notas de gatos y Movilización
+    - Gestión de cuentas financieras de tipo, bancarias, postales o efectivo.
 
--   Gestionar las facturas y abonos de clientes y las facturas de proveedores
+2. Opcional
 
--   Gestión de impuestos y cargas sociales
+    - Gestión de donaciones
 
--   Gestión de domiciliaciones y reintegros bancarios
+3. Modulo de RRHH
 
--   Notas de gatos y Movilización
+    - Gestión de días libres de empleados
+    - Gestión de miembros de una organización
 
--   Gestión de cuentas financieras de tipo, bancarias, postales o efectivo.
+4. Modulo de productos
 
--   Opcional
+    - Gestión de proveedores
+    - Gestión de productos
+    - Gestión de stocks (bodegas)
+    - Gestión de Servicios
 
--   Gestión de donaciones
+5. Modulo de ventas
 
--   Modulo de recursos humanos
+    - Gestión de puntos de venta
+    - Gestión de e-Commerce
 
--   Gestión de días libres de empleados
+6. Gestión de agenda y actividades
 
--   Gestión de miembros de una organización
+    - Emailing administración y envío de emails
+    - Herramientas de exportación e importación de datos
 
--   Modulo de productos
+7. Modulo de control de acceso usuarios
+    - Permite el manejo de permisos y accesos de los usuarios del sistema
+    - Herramientas de gestión de usuarios, permite fijar los permisos de acceso de usuarios a diferentes funciones del sistema.
 
--   Gestión de proveedores
-
--   Gestión de productos
-
--   Gestión de stocks (bodegas)
-
--   Gestión de Servicios opcionalmente
-
--   Gestión de puntos de venta
--   Gestión de agenda y actividades
--   Emailing administración y envío de emails
--   Herramientas de exportación e importación de datos
--   Herramientas de gestión de usuarios, permite fijar los permisos de acceso de usuarios a diferentes funciones del sistema.
-    Modulo de control de acceso usuarios
-    Permite el manejo de permisos y accesos de los usuarios del sistema
-    Dependiendo de la aplicación elegida esta puede incluir varios otros módulos, como gestión de clientes, de proyectos, etc, debe siempre elegirse la aplicación mínima que resuelve sus necesidades, puesto que una aplicación sobredimensionada, dará como resultado, una curva de aprendizaje compleja y larga y por lo tanto es muy posible que resulte mayor el esfuerzo en utilizarla que los beneficios de hacerlo y termine abandonada, como una herramienta inútil, en estos casos mas no es mejor.
+Dependiendo de la aplicación elegida esta puede incluir varios otros módulos, como gestión de clientes, de proyectos, etc, debe siempre elegirse la aplicación mínima que resuelve sus necesidades, puesto que una aplicación sobredimensionada, dará como resultado, una curva de aprendizaje compleja y larga y por lo tanto es muy posible que resulte mayor el esfuerzo en utilizarla que los beneficios de hacerlo y termine abandonada, como una herramienta inútil, en estos casos mas no es mejor.
