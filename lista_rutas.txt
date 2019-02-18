@@ -1,0 +1,30 @@
++--------+-----------+------------------------------+--------------------+----------------------------------------------------------+------------+
+|Domain  | Method    | URI                          | Name               | Action                                                   | Middleware |
++--------+-----------+------------------------------+--------------------+----------------------------------------------------------+------------+
+|        | GET|HEAD  | /                            |                    | Closure                                                  | web        |
+|        | GET|HEAD  | api/v1/categories            | categories.index   | IntelGUA\Http\Controllers\API\CategoryController@index   | api        |
+|        | POST      | api/v1/categories            | categories.store   | IntelGUA\Http\Controllers\API\CategoryController@store   | api        |
+|        | DELETE    | api/v1/categories/{category} | categories.destroy | IntelGUA\Http\Controllers\API\CategoryController@destroy | api        |
+|        | GET|HEAD  | api/v1/categories/{category} | categories.show    | IntelGUA\Http\Controllers\API\CategoryController@show    | api        |
+|        | PUT|PATCH | api/v1/categories/{category} | categories.update  | IntelGUA\Http\Controllers\API\CategoryController@update  | api        |
+|        | GET|HEAD  | api/v1/measures              | measures.index     | IntelGUA\Http\Controllers\API\MeasureController@index    | api        |
+|        | POST      | api/v1/measures              | measures.store     | IntelGUA\Http\Controllers\API\MeasureController@store    | api        |
+|        | DELETE    | api/v1/measures/{measure}    | measures.destroy   | IntelGUA\Http\Controllers\API\MeasureController@destroy  | api        |
+|        | PUT|PATCH | api/v1/measures/{measure}    | measures.update    | IntelGUA\Http\Controllers\API\MeasureController@update   | api        |
+|        | GET|HEAD  | api/v1/measures/{measure}    | measures.show      | IntelGUA\Http\Controllers\API\MeasureController@show     | api        |
+|        | GET|HEAD  | api/v1/products              | products.index     | IntelGUA\Http\Controllers\API\ProductController@index    | api        |
+|        | POST      | api/v1/products              | products.store     | IntelGUA\Http\Controllers\API\ProductController@store    | api        |
+|        | DELETE    | api/v1/products/{product}    | products.destroy   | IntelGUA\Http\Controllers\API\ProductController@destroy  | api        |
+|        | PUT|PATCH | api/v1/products/{product}    | products.update    | IntelGUA\Http\Controllers\API\ProductController@update   | api        |
+|        | GET|HEAD  | api/v1/products/{product}    | products.show      | IntelGUA\Http\Controllers\API\ProductController@show     | api        |
+|        | POST      | api/v1/taxes                 | taxes.store        | IntelGUA\Http\Controllers\API\TaxController@store        | api        |
+|        | GET|HEAD  | api/v1/taxes                 | taxes.index        | IntelGUA\Http\Controllers\API\TaxController@index        | api        |
+|        | GET|HEAD  | api/v1/taxes/{tax}           | taxes.show         | IntelGUA\Http\Controllers\API\TaxController@show         | api        |
+|        | DELETE    | api/v1/taxes/{tax}           | taxes.destroy      | IntelGUA\Http\Controllers\API\TaxController@destroy      | api        |
+|        | PUT|PATCH | api/v1/taxes/{tax}           | taxes.update       | IntelGUA\Http\Controllers\API\TaxController@update       | api        |
+|        | GET|HEAD  | api/v1/users                 | users.index        | IntelGUA\Http\Controllers\API\UserController@index       | api        |
+|        | POST      | api/v1/users                 | users.store        | IntelGUA\Http\Controllers\API\UserController@store       | api        |
+|        | GET|HEAD  | api/v1/users/{user}          | users.show         | IntelGUA\Http\Controllers\API\UserController@show        | api        |
+|        | PUT|PATCH | api/v1/users/{user}          | users.update       | IntelGUA\Http\Controllers\API\UserController@update      | api        |
+|        | DELETE    | api/v1/users/{user}          | users.destroy      | IntelGUA\Http\Controllers\API\UserController@destroy     | api        |
++--------+-----------+------------------------------+--------------------+----------------------------------------------------------+------------+
